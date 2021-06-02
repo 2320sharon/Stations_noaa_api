@@ -11,7 +11,7 @@ This program makes calls to the noaa api to get all the stations that can record
 >>>response = requests.get("https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=tidepredictions")
 >>>json_res=response.json()
 ```
-If you want ot change the type of stations that are collected change the type=tidepredictions to any of the following:
+If you want to change the type of stations that are collected change the type=tidepredictions to any of the following:
 <br>
 1.
 ```python
